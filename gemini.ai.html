@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Sederhana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm p-4 sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Dashboard</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="text-gray-600 hover:text-blue-500 transition duration-300">Beranda</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500 transition duration-300">Layanan</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500 transition duration-300">Tentang Kami</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-blue-500 transition duration-300">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto p-8 pt-12">
+        <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800">Selamat Datang di Dashboard Kami</h2>
+            <p class="text-lg text-gray-600 mb-8">Jelajahi berbagai platform kami di bawah ini!</p>
+            
+            <div class="flex flex-wrap justify-center gap-8">
+                <!-- Instagram Link -->
+                <a href="https://www.instagram.com/" target="_blank" class="block w-48 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/400x400/fff/000?text=Instagram" alt="Logo Instagram" class="w-full">
+                    <div class="p-4 bg-purple-500 text-white font-medium">Instagram</div>
+                </a>
+
+                <!-- YouTube Link -->
+                <a href="https://www.youtube.com/" target="_blank" class="block w-48 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/400x400/fff/000?text=YouTube" alt="Logo YouTube" class="w-full">
+                    <div class="p-4 bg-red-600 text-white font-medium">YouTube</div>
+                </a>
+
+                <!-- Twitter Link -->
+                <a href="https://www.twitter.com/" target="_blank" class="block w-48 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://placehold.co/400x400/fff/000?text=Twitter" alt="Logo Twitter" class="w-full">
+                    <div class="p-4 bg-blue-400 text-white font-medium">Twitter</div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Dashboard Sederhana. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
